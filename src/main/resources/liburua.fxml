@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="492.0" prefWidth="728.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ehu.isad.controllers.ui.LiburuInfoKud">
+   <children>
+      <ImageView fx:id="idImage" fitHeight="242.0" fitWidth="264.0" layoutX="43.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField fx:id="idIzenbText" layoutX="516.0" layoutY="95.0" />
+      <TextField fx:id="idEgileText" layoutX="516.0" layoutY="170.0" />
+      <TextField fx:id="idUrteaText" layoutX="516.0" layoutY="245.0" />
+      <TextField fx:id="idISBNTex" layoutX="516.0" layoutY="332.0" />
+      <Label fx:id="idIzenbLab" layoutX="415.0" layoutY="100.0" text="Izenburua" />
+      <Label fx:id="idEgileLab" layoutX="428.0" layoutY="183.0" text="Egilea" />
+      <Label fx:id="idUrteaLab" layoutX="429.0" layoutY="258.0" prefHeight="16.0" prefWidth="57.0" text="Urtea" />
+      <Label fx:id="idISBNLab" layoutX="432.0" layoutY="337.0" text="ISBN" />
+      <Button fx:id="idBilatu" layoutX="563.0" layoutY="407.0" mnemonicParsing="false" onAction="#bilatuOnClick" text="Bilatu" />
+      <Button fx:id="idAurrera" layoutX="277.0" layoutY="414.0" mnemonicParsing="false" onAction="#aurreraOnClick" text="&gt;&gt;" />
+      <Button fx:id="idAtzera" layoutX="175.0" layoutY="414.0" mnemonicParsing="false" onAction="#atzeraOnClick" text="&lt;&lt;" />
+   </children>
+</AnchorPane>
